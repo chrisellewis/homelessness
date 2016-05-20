@@ -1,0 +1,247 @@
+/* Import Google Web fonts */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600italic,700,700bold);
+@import url(https://fonts.googleapis.com/css?family=Karla:400,700);
+@import url(https://fonts.googleapis.com/css?family=Rokkitt:400,700bold);
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One:400);
+@import url(https://fonts.googleapis.com/css?family=Pathway+Gothic+One:400);
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700bold,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Sanchez:400,400italic);
+
+body { /* sets the page defaults e.g. background and default typography */
+background: ;#707070
+font-family: 'Noto Serif', serif;
+margin: 0;
+font-size: 20px;
+line-height: 1.5;
+color: rgba(0, 0, 0, 0.74);
+}
+
+.top_header {
+  background: #707070 ;
+}
+header {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+p{
+font-family: 'Karla';
+color: #303030;
+}
+
+p1{
+font-family: 'Josefin Sans';
+font-style: italic;
+color: #240048;
+font-size: 18px;
+}
+
+h2 {
+  margin: 0;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+margin: 0;
+  color: #240048;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+h4 {
+margin: 0;
+  color: #240048;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  }
+  
+figure {
+  margin: 0; /* resets the left margin in the figure*/
+}
+
+figure img {
+  max-width: 100%; /* images will shrink to fit inside the main conent column*/
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
+}
+figcaption {
+  font-size: 18px;
+  font-family: 'Rokkitt';
+  font-weight: 700;
+  color: #240048;
+}
+
+
+blockquote.right {
+    float: right;
+    margin: 0 1em 1em 0;
+    font-family: 'Sanchez';
+    color: #240048;
+    padding: 1em;
+    font-size: 1.5em;
+    width: 30%;
+    position: relative;
+    right: -1em;
+    border: 10px solid;
+    border-radius: 15px;
+    border-color: #C8C8C8;
+}
+
+.chart_div{
+float:left;
+}
+
+.middle_header{
+  background: #240048;
+    height: 100vh;
+  position: relative;
+  display: flex;
+  background-position: center !important;
+  }
+
+.bottom_header{
+  background: #666633;
+    height: 100vh;
+  position: relative;
+  display: flex;
+  background-position: center !important;
+  }
+
+
+.img_container, .color_container {
+  height: 100vh; /* this sets the height of each full width image section to that of the viewport.*/
+  position: relative;
+  display: flex;
+  background-position: center !important;
+}
+.video_container {
+  display: block;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slider_container {
+  width:100%;
+}
+
+.video_container header {
+  position: absolute;
+  text-align: center;
+height: 100vh;
+width: 100%;
+  top: 0;
+}
+
+.video_container header h1 {
+  position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+aside{
+border-style: dashed;
+border-color: #240048;
+float: left;
+color: #240048;
+padding: 1em;
+margin: 1em 1em 1em 1em;
+}
+
+h5{
+margin: 0;
+float: left;
+padding: .3em;
+  color: #240048;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  }
+  
+  h6{
+margin: 0;
+float: right;
+padding: .3em;
+  color: #240048;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  }
+header {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+}
+header {
+  color: #fff;
+  text-shadow:0 0 9px #000000;
+}
+header h1 {
+  margin: 0;
+  font-size: 8vw;
+}
+header a {
+  color: white;
+}
+/* Styles for individual header sections by class name. */
+
+.BigIssue {
+  background: url(../img/IMG_BigIssue.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* the background image doesn't move when scrolling*/
+  overflow: hidden;
+}
+.Emmaus {
+  background: url(../img/Emmaus.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.Council {
+  background: url(../img/Council.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Archer {
+  background: url(../img/Archer.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header h1 {
+  font-size: 6vw;
+}
+
+/* Text blocks */
+.content {
+  margin: 0 auto;
+  position: relative;
+  overflow: visible;
+  padding: 1em 20%;
+}
+
+footer {
+
+height: 75px;
+background: #fff;
+color: #240048;
+font-family: 'Sanchez';
+text-align: center;
+margin: 1em 1em 1em 1em;
+}
+
+video#foo {
+  width: 100%;
+}
+
+audio {
+width: 850px;
+}
+

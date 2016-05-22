@@ -34,7 +34,7 @@ function onYouTubeIframeAPIReady() {
   player = new YT.Player('player', {
     height: '100%',
     width: '100%',
-    videoId: 'tRKl0tSOKs0',
+    videoId: 'wH7cUcnS9a8',
     playerVars: {
       controls: 0,
       modestbranding: 0,
@@ -104,12 +104,34 @@ $(function () {
 
 $(function () { // wait for document ready
 // build scene
-var scene = new ScrollMagic.Scene({triggerElement: "#playMe", duration: 400})
+var scene = new ScrollMagic.Scene({triggerElement: "#playMe", duration: 2300})
                   .on("enter", function (){
 document.getElementById('MyAudio').play();
                   })
                   .on("leave", function () {
 document.getElementById('MyAudio').pause();
+                      })
+      						.addTo(controller);
+      	});
+$(function () { // wait for document ready
+// build scene
+var scene = new ScrollMagic.Scene({triggerElement: "#playMe2", duration: 1000})
+                  .on("enter", function (){
+document.getElementById('MyAudio2').play();
+                  })
+                  .on("leave", function () {
+document.getElementById('MyAudio2').pause();
+                      })
+      						.addTo(controller);
+      	});
+$(function () { // wait for document ready
+// build scene
+var scene = new ScrollMagic.Scene({triggerElement: "#playsme", duration: 2800})
+                  .on("enter", function (){
+document.getElementById('MyAudio3').play();
+                  })
+                  .on("leave", function () {
+document.getElementById('MyAudio3').pause();
                       })
       						.addTo(controller);
       	});

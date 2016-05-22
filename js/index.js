@@ -104,7 +104,7 @@ $(function () {
 
 $(function () { // wait for document ready
 // build scene
-var scene = new ScrollMagic.Scene({triggerElement: "#playMe", duration: 2300})
+var scene = new ScrollMagic.Scene({triggerElement: "#playMe", duration: 600})
                   .on("enter", function (){
 document.getElementById('MyAudio').play();
                   })
@@ -115,7 +115,7 @@ document.getElementById('MyAudio').pause();
       	});
 $(function () { // wait for document ready
 // build scene
-var scene = new ScrollMagic.Scene({triggerElement: "#playMe2", duration: 1000})
+var scene = new ScrollMagic.Scene({triggerElement: "#playMe2", duration: 600})
                   .on("enter", function (){
 document.getElementById('MyAudio2').play();
                   })
@@ -126,7 +126,7 @@ document.getElementById('MyAudio2').pause();
       	});
 $(function () { // wait for document ready
 // build scene
-var scene = new ScrollMagic.Scene({triggerElement: "#playsme", duration: 2800})
+var scene = new ScrollMagic.Scene({triggerElement: "#playsme", duration: 600})
                   .on("enter", function (){
 document.getElementById('MyAudio3').play();
                   })
